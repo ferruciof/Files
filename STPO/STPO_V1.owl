@@ -1,1 +1,255 @@
-a
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ferruciof/ontologies/2018/1/untitled-ontology-37"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ferruciof/ontologies/2018/1/untitled-ontology-37">
+    <Prefix name="" IRI="http://www.semanticweb.org/ferruciof/ontologies/2018/1/untitled-ontology-37"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ISKS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReferenceOntology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SP"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasISKS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#STEP"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTEP"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOntology"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSTEP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TEP"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTPKS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ONE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TPKS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#STEP-ONE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TE"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTE"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasONE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TestOntology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecurityOntology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#STPO"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAT"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSE"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AT"/>
+        <Class IRI="#SP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISKS"/>
+        <Class IRI="#STEP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SE"/>
+        <Class IRI="#ISKS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SP"/>
+        <Class IRI="#SE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#STEP"/>
+        <Class IRI="#STEP-ONE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#STPO"/>
+        <Class IRI="#ONE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecurityOntology"/>
+        <Class IRI="#ONE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TE"/>
+        <Class IRI="#TPKS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TEP"/>
+        <Class IRI="#STEP-ONE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TPKS"/>
+        <Class IRI="#TEP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestOntology"/>
+        <Class IRI="#ONE"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAT"/>
+        <Class IRI="#SP"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasISKS"/>
+        <Class IRI="#STEP"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasONE"/>
+        <Class IRI="#STEP-ONE"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOntology"/>
+        <Class IRI="#ONE"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReferenceOntology"/>
+        <Class IRI="#STPO"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSE"/>
+        <Class IRI="#ISKS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSP"/>
+        <Class IRI="#SE"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSTEP"/>
+        <Class IRI="#STEP-ONE"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTE"/>
+        <Class IRI="#TPKS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTEP"/>
+        <Class IRI="#STEP-ONE"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTPKS"/>
+        <Class IRI="#TEP"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAT"/>
+        <ObjectExactCardinality cardinality="27">
+            <ObjectProperty IRI="#hasAT"/>
+            <Class IRI="#AT"/>
+        </ObjectExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasISKS"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#hasISKS"/>
+            <Class IRI="#ISKS"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasONE"/>
+        <Class IRI="#ONE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOntology"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasOntology"/>
+            <Class IRI="#STPO"/>
+        </ObjectExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReferenceOntology"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasReferenceOntology"/>
+            <Class IRI="#SecurityOntology"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReferenceOntology"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasReferenceOntology"/>
+            <Class IRI="#TestOntology"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSE"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#hasSE"/>
+            <Class IRI="#SE"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSP"/>
+        <ObjectExactCardinality cardinality="7">
+            <ObjectProperty IRI="#hasSP"/>
+            <Class IRI="#SP"/>
+        </ObjectExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSTEP"/>
+        <Class IRI="#STEP"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTE"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#hasTE"/>
+            <Class IRI="#TE"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTEP"/>
+        <Class IRI="#TEP"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTPKS"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#hasTPKS"/>
+            <Class IRI="#TPKS"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
