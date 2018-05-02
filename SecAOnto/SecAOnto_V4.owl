@@ -857,6 +857,7 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
     <!-- http://www.NewOnto1.org/SecAOnto_V1#C-All-DM -->
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#C-All-DM">
+        <owl:equivalentClass rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-CombDM"/>
         <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-All-DM-PP"/>
     </owl:Class>
     
@@ -865,7 +866,8 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
     <!-- http://www.NewOnto1.org/SecAOnto_V1#C-All-DM-PP -->
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#C-All-DM-PP">
-        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-All-KS-DM-PP"/>
+        <owl:equivalentClass rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-CombDM-PP"/>
+        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-All-KS"/>
     </owl:Class>
     
 
@@ -873,14 +875,6 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
     <!-- http://www.NewOnto1.org/SecAOnto_V1#C-All-KS -->
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#C-All-KS">
-        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-All-KS-DM-PP"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.NewOnto1.org/SecAOnto_V1#C-All-KS-DM-PP -->
-
-    <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#C-All-KS-DM-PP">
         <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentCriteria"/>
     </owl:Class>
     
@@ -889,7 +883,32 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
     <!-- http://www.NewOnto1.org/SecAOnto_V1#C-All-PP -->
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#C-All-PP">
+        <owl:equivalentClass rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-CombPP"/>
         <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-All-DM-PP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.NewOnto1.org/SecAOnto_V1#C-CombDM -->
+
+    <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#C-CombDM">
+        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-CombDM-PP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.NewOnto1.org/SecAOnto_V1#C-CombDM-PP -->
+
+    <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#C-CombDM-PP">
+        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentCriteria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.NewOnto1.org/SecAOnto_V1#C-CombPP -->
+
+    <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#C-CombPP">
+        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-CombDM-PP"/>
     </owl:Class>
     
 
@@ -1246,30 +1265,6 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#H-AboveAvg">
         <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.NewOnto1.org/SecAOnto_V1#H-CombDM -->
-
-    <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#H-CombDM">
-        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#H-CombDM-PP"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.NewOnto1.org/SecAOnto_V1#H-CombDM-PP -->
-
-    <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#H-CombDM-PP">
-        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.NewOnto1.org/SecAOnto_V1#H-CombPP -->
-
-    <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#H-CombPP">
-        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#H-CombDM-PP"/>
     </owl:Class>
     
 
