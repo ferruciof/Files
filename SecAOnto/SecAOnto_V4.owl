@@ -230,6 +230,14 @@
     
 
 
+    <!-- http://www.NewOnto1.org/SecAOnto_V1#hasCombDM -->
+
+    <owl:ObjectProperty rdf:about="http://www.NewOnto1.org/SecAOnto_V1#hasCombDM">
+        <rdfs:subPropertyOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#hasCombDM-PP"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.NewOnto1.org/SecAOnto_V1#hasCombDM-PP -->
 
     <owl:ObjectProperty rdf:about="http://www.NewOnto1.org/SecAOnto_V1#hasCombDM-PP">
@@ -250,6 +258,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.NewOnto1.org/SecAOnto_V1#hasCombPP -->
+
+    <owl:ObjectProperty rdf:about="http://www.NewOnto1.org/SecAOnto_V1#hasCombPP">
+        <rdfs:subPropertyOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#hasCombDM-PP"/>
     </owl:ObjectProperty>
     
 
@@ -858,6 +874,12 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#C-All-DM">
         <owl:equivalentClass rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-CombDM"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#hasCombDM"/>
+                <owl:someValuesFrom rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-CombDM"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-All-DM-PP"/>
     </owl:Class>
     
@@ -867,6 +889,12 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#C-All-DM-PP">
         <owl:equivalentClass rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-CombDM-PP"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#hasCombDM-PP"/>
+                <owl:someValuesFrom rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-CombDM-PP"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-All-KS"/>
     </owl:Class>
     
@@ -884,6 +912,12 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#C-All-PP">
         <owl:equivalentClass rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-CombPP"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#hasCombPP"/>
+                <owl:someValuesFrom rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-CombPP"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#C-All-DM-PP"/>
     </owl:Class>
     
