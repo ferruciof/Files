@@ -678,9 +678,9 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
     
 
 
-    <!-- http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristic -->
+    <!-- http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristics -->
 
-    <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristic">
+    <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristics">
         <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#Assessment"/>
     </owl:Class>
     
@@ -1264,7 +1264,7 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
     <!-- http://www.NewOnto1.org/SecAOnto_V1#H-AboveAvg -->
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#H-AboveAvg">
-        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristic"/>
+        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristics"/>
     </owl:Class>
     
 
@@ -1272,7 +1272,7 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
     <!-- http://www.NewOnto1.org/SecAOnto_V1#H-CovDM -->
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#H-CovDM">
-        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristic"/>
+        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristics"/>
     </owl:Class>
     
 
@@ -1280,7 +1280,7 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
     <!-- http://www.NewOnto1.org/SecAOnto_V1#H-CovGLO -->
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#H-CovGLO">
-        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristic"/>
+        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristics"/>
     </owl:Class>
     
 
@@ -1288,7 +1288,7 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
     <!-- http://www.NewOnto1.org/SecAOnto_V1#H-CovLOC -->
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#H-CovLOC">
-        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristic"/>
+        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristics"/>
     </owl:Class>
     
 
@@ -1296,7 +1296,7 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
     <!-- http://www.NewOnto1.org/SecAOnto_V1#H-CovPP -->
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#H-CovPP">
-        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristic"/>
+        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristics"/>
     </owl:Class>
     
 
@@ -1304,7 +1304,7 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
     <!-- http://www.NewOnto1.org/SecAOnto_V1#H-CovTOT -->
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#H-CovTOT">
-        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristic"/>
+        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristics"/>
     </owl:Class>
     
 
@@ -1312,7 +1312,7 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
     <!-- http://www.NewOnto1.org/SecAOnto_V1#H-ParetoFrontier -->
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#H-ParetoFrontier">
-        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristic"/>
+        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristics"/>
     </owl:Class>
     
 
@@ -1320,7 +1320,7 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
     <!-- http://www.NewOnto1.org/SecAOnto_V1#H-ParetoPercentage -->
 
     <owl:Class rdf:about="http://www.NewOnto1.org/SecAOnto_V1#H-ParetoPercentage">
-        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristic"/>
+        <rdfs:subClassOf rdf:resource="http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristics"/>
     </owl:Class>
     
 
